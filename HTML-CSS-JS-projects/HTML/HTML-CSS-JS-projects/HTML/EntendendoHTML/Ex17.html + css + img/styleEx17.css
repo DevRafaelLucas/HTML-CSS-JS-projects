@@ -1,0 +1,137 @@
+* {
+    /* diretorio da página*/
+    margin: 0%;
+    /* tirando a margem da pagina*/
+    padding: 0%;
+    /* tirando o espaçamento da pagina */
+}
+
+header {
+    /* diretorio */
+    background-color: darkblue;
+    /* mudando a cor de fundo do cabeçalho*/
+    padding: 10px 10px;
+    /* ajustando espaçamento da esquerda para direita a 10 píxels e em cima 10 pixels*/
+    border-radius: 30px;
+    /* arredonda as bordas da página */
+}
+
+header img {
+    /* diretorio */
+    width: 100px;
+    /* alterando a largura da minha imagem */
+    height: auto;
+    /* alterando a altura da minha imagem*/
+}
+
+body {
+    /* diretorio */
+    background-color: green;
+    /* mudando a cor de fundo da pagina */
+}
+
+nav ul {
+    /* diretorio */
+    display: flex;
+    /* transforma coluna em linha */
+    justify-content: center;
+    /* justificar o conteiner para o centro */
+    list-style: none;
+    /* tira as bolinhas da frente do nome(marcadores)*/
+
+}
+
+header nav ul li {
+    /* diretorio */
+    margin: 15px;
+    /* margem de 15 pixels do lado esquerdo para direita*/
+}
+
+header nav ul li a {
+    /* diretorio */
+    color: aliceblue;
+    /* seleciona o tipo de cor */
+    text-decoration: none;
+    /* tira decoração de texto */
+    font-weight: bold;
+    /* deixa o texto em negrito */
+    padding: 5px 10px;
+
+}
+
+a:hover {
+    /* a letra vai pairar*/
+    background-color: blue;
+    /* cor de fundo */
+    color: yellow;
+    /* cor das palavras */
+    border-radius: 1000px;
+    /* arredondar as bordas */
+}
+
+section {
+    /* diretorio */
+    padding: 60px 20px;
+    /* altura de 60 pixels e 20 de largura */
+    text-align: center;
+    /* alinhei o texto para o centro */
+    font-family: Arial, Helvetica, sans-serif;
+    /* fontes e suas alternativas */
+    font-size: larger;
+    /* tamanho da fonte: grande */
+    height: 500px;
+}
+
+selection:hover {
+    color: aqua;
+    /* cor ciano */
+}
+
+#home {
+    background-color: yellow;
+    /* cor de fundo amarelo */
+    color: green;
+
+    /* letra de cor verde */
+    :hover {
+        /* muda a cor da palavra quando o mouse passa por cima */
+        color: black;
+        /* cor preta */
+    }
+}
+
+#sobre {
+    background-color: blue;
+    /* cor de fundo azul */
+    color: aliceblue;
+
+    :hover {
+        /* muda a cor da palavra quando o mouse passa por cima */
+        color: black;
+        /* cor preta */
+    }
+}
+
+#serviços {
+    background-color: green;
+    /* cor de fundo verde */
+    color: yellow;
+
+    :hover {
+        /* muda a cor da palavra quando o mouse passa por cima */
+        color: black;
+        /* cor preta */
+    }
+}
+
+#contato {
+    background-color: black;
+    /* cor de fundo escuro */
+    color: aliceblue;
+
+    :hover {
+        /* muda a cor da palavra quando o mouse passa por cima */
+        color: blue;
+        /* cor azul */
+    }
+}
