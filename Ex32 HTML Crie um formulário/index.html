@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex32 Crie um formulário</title>
+</head>
+<body style="display: flex; justify-content: center;">
+    
+    <form action="" style="text-align: center;">
+        <h1>Hackeia-me.com</h1>
+        <p>Bem vindo ao Hackeia-me.com, aqui hackeamos contas gratuitamente, sem pagar nada! Basta digitar os dados abaixo e de resto cuidaremos de tudo</p>
+
+        <label>Digite seu nome:</label>
+        <br>
+        <input type="text" name="name_user" id="name_user">
+
+        <br>
+        <label>Digite seu email:</label>
+        <br>
+        <input type="text" name="email_user" id="email_user">
+        <br>
+        
+        <button onclick="saudacaoPersonalizada()">enviar</button>
+
+        <script>
+
+            function saudacaoPersonalizada() {
+                alert('Parabéns! Você foi hackeado com sucesso!')
+            }
+
+        </script>
+
+    </form>
+</body>
+</html>

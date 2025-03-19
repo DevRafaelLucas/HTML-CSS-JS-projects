@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+h1{
+    font-size: 32;
+}
+
+p{
+    font-size: 18;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    body{
+        text-align: left;
+    }
+    
+    h1{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 16px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    
+    body{
+        text-align: right;
+    }
+    
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 14px;
+    } 
+}

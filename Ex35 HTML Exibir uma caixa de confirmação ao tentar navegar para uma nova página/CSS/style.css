@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+    display: block;
+    padding: 2%;
+    margin: 100px 350px 100px 350px;
+}

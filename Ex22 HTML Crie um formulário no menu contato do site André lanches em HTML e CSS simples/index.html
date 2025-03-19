@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 22 Crie um formulário no Menu contato do site André Lanches em HTML e CSS Simples</title>
+    <link rel="stylesheet"
+        href="../Ex22 HTML Crie um formulário no menu contato do site André lanches em HTML e CSS simples/style.css">
+</head>
+
+<body>
+    <div class="form">
+        <form action="#">
+
+            <div id="formulario_parte1">
+
+                <div id="titulo_formulário">
+                    <h1>Menu de contato</h1>
+                </div>
+
+                <div id="nome_usuario">
+                    <label for="nome_usuario">Informe seu nome completo:</label>
+                    <br>
+                    <input type="text" name="name" id="name" required>
+                </div>
+
+                <div id="email_usuario">
+                    <label for="email_usuario">Informe seu Email:</label>
+                    <br>
+                    <input type="text" name="email" id="email" required>
+                </div>
+
+                <div id="telefone_usuario">
+                    <label for="telefone_usuario">Informe seu Telefone:</label>
+                    <br>
+                    <input type="number" name="telephone" id="telephone" required>
+                </div>
+
+                <div id="assunto">
+                    <label for="assunto">Qual o Assunto?</label>
+                    <br>
+                    <input type="text" name="subject" id="subject" required>
+                </div>
+
+                <div id="mensagem">
+                    <label for="mensagem">Digite sua Mensagem:</label>
+                    <br>
+                    <input type="text" name="Message" id="Message" required>
+                </div>
+            </div>
+
+            <div id="generos">
+                <label id="generos_titulo" for="generos">Qual seu gênero?</label>
+                <br>
+
+                <div id="selecao_masculino">
+                    <label for="genero_masculino">Masculino</label>
+                    <input type="radio" name="gender_male" id="gender_male" required>
+                </div>
+
+                <div id="selecao_feminino">
+                    <label for="genero_feminino">Feminino</label>
+                    <input type="radio" name="gender_female" id="gender_female" required>
+                </div>
+                <div id="selecao_outro">
+                    <label for="genero_outros">Outro</label>
+                    <input type="radio" name="gender_other" id="gender_other" required>
+                </div>
+            </div>
+
+            <div id="preferencia_de_contato">
+                <label id="titulo_contato" for="Preferencia de contato">Qual a preferencia contato?</label>
+                <br>
+
+                <label for="contato_email">Email</label>
+                <input type="checkbox" name="contact_preference_email" id="contact_preference_email" required>
+
+                <label for="contato_SMS">SMS</label>
+                <input type="checkbox" name="contact_preference_sms" id="contact_preference_sms" required>
+
+                <label for="contato_telefone">Telefone</label>
+                <input type="checkbox" name="contact_preference_telefone" id="contact_preference_telefone" required>
+            </div>
+
+            <div id="escolha_de_servico">
+                <p>Qual o serviço?</p>
+                <select name="servico" id="servico">
+                    <option value="Suporte Técnico">Suporte Técnico</option>
+                    <option value="Reclamações">Reclamações</option>
+                    <option value="Sugestões">Sugestões</option>
+                    <option value="Elogios">Elogios</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+
+            <div id="botoes">
+                <button id="">Enviar</button>
+                <button>Limpar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

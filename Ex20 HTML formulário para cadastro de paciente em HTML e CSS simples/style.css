@@ -1,0 +1,73 @@
+*{
+    padding: 5px;
+}
+
+body {
+    background-color: black;
+    padding: 140px;
+}
+
+form {
+    background-color: white;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    
+}
+
+#titulo_de_cadastro {
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 0px;
+}
+
+
+#area_cadastro{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0px 20px 0px;
+}
+    /* Todos os espaços para cadastrar dados */
+
+#nome {
+    padding: 3px 100px 6px 100px;
+}
+#cpf {
+    padding: 3px 100px 3px 100px;
+}
+#endereco {
+    padding: 3px 100px 3px 100px;
+}
+#telefone {
+    padding: 3px 100px 3px 100px;
+}
+#email {
+    padding: 3px 100px 3px 100px;
+}
+#data{
+    padding: 3px 126px 3px 126px;
+}
+#login{
+    padding: 3px 100px 3px 100px;
+}
+#senha{
+    padding: 3px 100px 3px 100px;
+}
+
+/* Botões do cadastro */
+
+#botoes{
+    padding: 10px 0px 10px 0px;
+}
+
+#botao_gravar{
+    background-color: green;
+    color: aliceblue;
+    padding: 5px 80px 5px 80px;
+}
+
+#botao_limpar {
+    background-color: red;
+    color: aliceblue;
+    padding: 5px 80px 5px 80px;
+}
+

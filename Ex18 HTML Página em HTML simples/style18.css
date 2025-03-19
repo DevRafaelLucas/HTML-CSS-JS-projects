@@ -1,0 +1,105 @@
+* {
+    /* diretorio da página*/
+    margin: 0%;
+    /* tirando a margem da pagina*/
+    padding: 0px 0px 0px 0px;
+    /* espaçamento interno página */
+    text-align: center;
+    /* centraliza texto da página*/
+}
+
+/* Cabeçalho */
+
+header {
+    /* diretorio */
+    background-color: black;
+    /* cor de fundo da página azul */
+    padding: 10px 220px 8px 220px;
+    /* cima, esquerda, baixo, direita  */
+    border-radius: 0px 0px 0px 0px;
+    /* cima, esquerda, baixo, direita  */
+}
+
+header img {
+    /* diretorio */
+    width: 60px;
+    /* alterando a largura da minha imagem */
+    height: 20%;
+    /* alterando a altura da minha imagem*/
+    border-radius: 20px 20px 28px 28px;
+    /* arredondamento das bordas */
+    padding: 0px 0px 5px 0px;
+
+}
+
+header nav div {/* diretorio */
+    background-color: grey; /* cor de fundo */
+    border-radius: 90px; /* arredonda bordas */
+}
+
+header nav div ul {
+    /* diretorio */
+    display: flex;
+    /* transforma coluna em linha */
+    list-style: none;
+    /* tira as bolinhas da frente do nome(marcadores) */
+    justify-content: center;
+    /* justificar o conteiner para o centro */
+    color: aliceblue;
+    /* cor do texto */
+    padding: 0px 0px 20px 0px;
+    /* espaçamento automático */
+
+}
+
+header nav div ul li {/* diretorio */
+    padding: 20px 15px 0px 15px;
+    /* cima, esquerda, baixo, direita  */
+    font-size: medium;
+    /* espaçamento da página */
+}
+
+header nav div ul li:hover {
+    /* indicador de clicavel */
+    color: yellow;
+    /* cor das palavras */
+    border-radius: 20px;
+    /* arredondar as bordas */
+}
+
+/* Menu */
+
+main {
+    /* diretorio do menu*/
+    background-color: brown;
+    /* cor de fundo azul */
+    padding: 25% 0px 0px 0px;
+    /*espaçamento interno: cima, esquerda, baixo, direita  */
+    border-radius: 20px;
+    /* bordas do menu */
+    margin: 10px 10px 10px 10px;
+    /* cima, esquerda, baixo, direita  */
+
+}
+
+main {/* diretorio */
+    padding: 30px 0px 30px 0px;
+    /*espaçamento interno: cima, esquerda, baixo, direita  */
+}
+
+main h1 {/* diretorio */
+    padding: 20px;
+    /*espaçamento interno: cima, esquerda, baixo, direita  */
+}
+
+/* Rodapé */
+
+footer {
+    /* diretorio */
+    background-color: black;
+    /* define cor de fundo */
+    padding: 100px 10px 10px 10px;
+    /*espaçamento interno: cima, esquerda, baixo, direita  */
+    color: aliceblue;
+    /* define cor da palavra */
+}
