@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 30%;
+
+}
+
+form {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 2%;
+
+
+}
+
+button {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 20px;
+}

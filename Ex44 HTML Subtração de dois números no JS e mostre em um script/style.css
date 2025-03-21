@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    margin: 30%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+form {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 5%;
+}
+
+button {
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border: none;
+    padding: 2%;
+}
+
+button:hover {
+    opacity: 70%;
+    background-color: green;
+
+}
