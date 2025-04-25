@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+button{
+    color: white;
+    width: 20%;
+    border-radius: 15px;
+    background-color: brown;
+    padding: 20px;
+}
