@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script src="../JS/login.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <h2>Login de Usuário</h2>
+
+        <form action="#">
+            <div class="form-name">
+                <label for="username">Nome de Usuário ou E-mail</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="form-senha">
+                <label for="password">Senha:</label>
+                <input type="text" id="password" name="password" required>
+            </div>
+
+            <div class="check-box-lembrar-senha">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Lembre-me</label>
+            </div>
+
+            <div class="botao-entrar">
+                <button type="submit" onclick="verificar()">Entrar</button>
+                <br>
+                <button type="reset">Limpar</button>
+            </div>
+
+            <div class="botao-esqueceu-senha">
+                <a href="#">Esqueci senha</a>
+            </div>
+
+            <div class="botao-criar-conta">
+                <a href="./criarConta.html">Criar conta</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
