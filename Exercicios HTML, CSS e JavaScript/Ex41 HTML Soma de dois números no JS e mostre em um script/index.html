@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body style="text-align: center;">
+    <h1>Calcular</h1>
+    <p>Clique no botão para calcular os números</p>
+
+    <button onclick="calcular()">Calcule</button>
+
+    <script>
+        function calcular() {
+
+            let numero1 = window.prompt(`Digite o primeiro numero:`)
+            let numero2 = window.prompt(`Digite o segundo numero:`)
+
+            numero1 = parseFloat(numero1);
+            numero2 = parseFloat(numero2);
+            resultado = parseFloat(numero1 + numero2);
+
+            let soma = numero1 + numero2;
+            window.alert(`A soma: `+ numero1 +` + `+ numero2 +` = `+ soma);
+
+        }
+    </script>
+</body>
+
+</html>

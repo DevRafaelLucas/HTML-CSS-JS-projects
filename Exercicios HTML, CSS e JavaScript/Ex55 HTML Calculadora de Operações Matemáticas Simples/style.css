@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+#historico {
+    background-color: white;
+}
+
+#form {
+    background-color: grey;
+    color: white;
+    width: 25%;
+    padding: 3%;
+    border-radius: 20px;
+    margin-left: 35%;
+
+}
+#form input{
+    width: 5%;
+    border-radius: 5px;
+    border: none;
+}
+
+#form button {
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(204, 204, 204);
+}
+
+#historico {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
