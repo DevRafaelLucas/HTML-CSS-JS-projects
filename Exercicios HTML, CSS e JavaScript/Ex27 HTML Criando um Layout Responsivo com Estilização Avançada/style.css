@@ -1,0 +1,59 @@
+body {
+    
+    background-color: aqua;
+    text-align: center;
+}
+
+h1{
+    font-size: 32px;
+}
+
+p{
+    font-size: 18px;
+}
+
+button {
+    border-radius: 20px;
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color: rgb(0, 255, 47);
+}
+
+@media screen and (max-width: 1024px) {
+    
+    body{
+        text-align: center;
+        background-color: grey;
+        opacity: 50;
+        transition: 3s;
+    }
+    
+    h1{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 16px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    
+    body{
+        opacity: 50;
+        transition: 3s;
+        text-align: left;
+        background-color: black;
+        color: white;
+    }
+    
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 14px;
+    } 
+}

@@ -1,0 +1,114 @@
+* {
+    margin: 0%;
+    /* margem de toda a página */
+    padding: 0%;
+    /* espaçamento interno da página */
+}
+
+body {
+    margin: 0%;
+    /* margem do corpo da página */
+    padding: 0%;
+    /* espaçamento interno do corpo da página */
+    font-family: Arial, Helvetica, sans-serif;
+    /* tipo de letra do corpo da página */
+    background-color: black;
+    /* cor de fundo do corpo da página */
+    display: flex;
+    /* exposição do corpo da página */
+    justify-content: center;
+    /* justificando a exposição no centro da página */
+    align-items: center;
+    /* alinhando todos os itens  */
+    height: 100vh;
+    /* altura adapatada da janela para 0 */
+}
+
+.login {
+    background-color: white;
+    /* cor de fundo do corpo da página */
+    padding: 50px;
+    /* espaçamento interno da página */
+    border-radius: 8px;
+    /* arredondar as pontas da página */
+    width: 200px;
+    /* largura aumentada */
+    text-align: center;
+    /* alinhando o texto para o centro */
+}
+
+h2 {
+    margin-bottom: 20px;
+    /* aumenta a margem de baixo do titulo */
+    text-align: left;
+    /* alinha texto para a esquerda */
+}
+
+.form-name {
+    margin-bottom: 15px;
+    /* aumenta a margem de baixo do texto nome */
+    text-align: left;
+    /* alinha texto para a esquerda */
+}
+
+.form-senha {
+    margin-bottom: 15px;
+    /* aumenta a margem de baixo do texto nome */
+    text-align: left;
+    /* alinha texto para a esquerda */
+
+}
+
+label {
+    display: block; /* deixa o bloco um embaixo do outro */
+    margin-bottom: 5px; /* margem debaixo aumentada */
+}
+
+a{
+    display: block; /* Coloca as colunas  */
+    font-size: 0.9; /* altera o Tamanho da fonte */
+    text-decoration: none; /* tira a decoração do nome */
+    margin-top: 10px; /* altera o tamanho da margem superior */
+    text-align: left; /* centraliza o texto */
+}
+
+a:hover{
+    text-decoration: underline; /* coloca sublinhado ao passar em uma palavra */
+    color: rgb(51, 255, 255); /* altera a cor ao passar o cursor em cima da palavra */
+}
+
+button{
+    width: 105%; /* altera a largura */
+    padding: 8px; /* altera o espaçamento */
+    border-radius: 4px; /* arredonda as pontas */
+    border: none; /* tira as bordas */
+    background-color: green; /* altera a cor de fundo */
+    color: white; /* altera a cor da palavra */
+    font-size: 16px; /* altera o tamanho da fonte */
+    cursor: pointer; /* cursor vira um mão apontando */
+}
+
+button[type="reset"]{
+    background-color: red; /* altera a cor de fundo */
+    margin-top: 5px; /* aumenta o tamanho da margem do topo */
+}
+
+button:hover{
+    opacity: 0.9; /* diminui a opacidade ao passar o mouse por cima */
+}
+
+.check-box-lembrar-senha{
+    width: 100%; /* aumenta a largura da caixa de seleção */
+    text-align: left; /* alinha o texto para esquerda */
+    display: flex; /* deixa o espaçamento flexivel */
+    margin-bottom: 20px; /* aumenta a margem superior */
+    gap: 10px; /* separa os itens */
+}
+
+input[type="text"], [type="password"]{
+    width: 100%; /* aumenta a largura da caixa de seleção */
+    padding: 2px; /* altera o espaçamento */
+    border: 1px solid rgb(rgb(190, 190, 190), green, blue); /*  */
+    border-radius: 4px; /* arredonda as pontas */
+    font-size: 18px; /* tamanho da letra */
+}
